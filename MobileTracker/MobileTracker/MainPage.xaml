@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileTracker"
+             x:Class="MobileTracker.MainPage">
+
+    
+	
+
+    <StackLayout Spacing="10" VerticalOptions="FillAndExpand">
+        
+        <Label Text="Mobile Tracker 9000" 
+           VerticalOptions="Start" 
+           HorizontalOptions="Center" FontSize="20" TranslationY="10" />
+        <Button x:Name="StartTrackingButton" IsEnabled="False" Text="Start tracking" Clicked="StartTracking"/>
+        <Button x:Name="StopTrackingButton" IsEnabled="True" Text="Stop tracking" Clicked="StopTracking"/>
+    </StackLayout>
+    
+</ContentPage>
